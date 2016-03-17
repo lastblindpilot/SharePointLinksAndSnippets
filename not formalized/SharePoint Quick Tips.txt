@@ -1,0 +1,80 @@
+SharePoint Quick Tips
+========================
+========================
+
+- Table of URLs to help you easily navigate to commonly used settings pages
+http://blog.fpweb.net/your-sharepoint-url-list-an-administrators-guid/#.Vs1bH_mLSUk
+
+
+Site Contents
+/_layouts/viewlsts.aspx	
+
+
+
+TypeScript and SharePoint
+====
+
+- TypeScript, AngularJS, Gulp and Bower in Visual Studio 2015
+http://chsakell.com/2015/09/19/typescript-angularjs-gulp-and-bower-in-visual-studio-2015/
+
+
+
+Client Side Rendering 
+====
+
+2 mechanisms:
+- search Display Templates
+- JSLink
+
+
+Links:
+
+- Introduction to Client-Side Rendering in SharePoint 2013
+http://www.kaptyn.com/SharePoint/client-side-rendering-2013/
+
+- Используем Client Side Rendering (CSR) для отображения элементов списка в SharePoint 2013
+https://dplotnikov.wordpress.com/2014/12/07/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC-client-side-rendering-csr-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D1%8D%D0%BB%D0%B5%D0%BC/
+
+- SharePoint TypeScript CSR templates... 0.0.2
+https://www.nuget.org/packages/typescripttemplates/
+
+- Github repo
+https://github.com/lastblindpilot/PnP/tree/master/Samples/Branding.ClientSideRendering
+[Forked]
+
+- Open Pages and Forms in Modal Dialog For SharePoint 2013
+https://alinimer.wordpress.com/2013/02/25/open-pages-and-forms-in-modal-dialog-for-sharepoint-2013/
+
+
+Custom web services
+====
+
+- SharePoint 2013: Create a Custom WCF REST Service Hosted in SharePoint and Deployed in a WSP
+http://social.technet.microsoft.com/wiki/contents/articles/24194.sharepoint-2013-create-a-custom-wcf-rest-service-hosted-in-sharepoint-and-deployed-in-a-wsp.aspx
+
+
+
+Архитектура SP
+====
+
+Два подхода: Streamlined topologies и Traditional topologies
+https://technet.microsoft.com/en-us/library/jj219591.aspx
+
+- Установка и базовая настройка SharePoint Server 2013 SP1 на Windows Server 2012 R2 (в топологии Two-tier farm). Часть 1 — Подготовка отдельного кластерного экземпляра SQL Server 2012 SP1 для баз данных SharePoint Server
+http://blog.it-kb.ru/2014/04/15/install-two-tier-farm-sharepoint-server-2013-sp1-on-windows-server-2012-r2-part-1-prepare-ha-clustered-sql-server-2012-sp1-cumulative-update-9-instance/
+
+
+
+
+Q/A
+
+- Moving Document from one library to another with all versions to another library 
+
+Export-SPWeb "https://intra.rtlabs.ru/DC/" -ItemUrl "/DC/OrdersSrk/Forms/AllItems.aspx" -Path "C:\Temp\OrdersSrk.cmp" -IncludeVersions All -Force
+Import-SPWeb "https://intra.rtlabs.ru/reestr/" -Path "C:\Temp\OrdersSrk.cmp" -UpdateVersions Overwrite
+
+https://social.technet.microsoft.com/Forums/office/en-US/b52614d5-606e-43e7-b329-b2c32162b2ad/moving-document-from-one-library-to-another-with-all-versions-to-another-library-either-ootb-or?forum=sharepointgeneralprevious
+[PowerShell]
+
+- Using a PowerShell script to run as a different user & elevate the process.
+http://blogs.technet.com/b/benshy/archive/2012/06/04/using-a-powershell-script-to-run-as-a-different-user-amp-elevate-the-process.aspx

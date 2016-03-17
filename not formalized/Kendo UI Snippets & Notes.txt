@@ -1,0 +1,34 @@
+Kendo UI Snippets & Notes
+====
+
+- How To: External Search Box For Kendo UI Grid
+http://telerikhelper.net/2014/10/21/how-to-external-search-box-for-kendo-ui-grid/
+
+- POPUP Sharepoint link
+
+var options = {
+	title: "",
+	//width: 800,
+	//height: 600,
+	url:link,
+	autoSize: true,
+	allowMaximize: true,
+	showClose: true,
+	dialogReturnValueCallback: listViewRefresh,
+};
+
+SP.UI.ModalDialog.showModalDialog(options);
+
+
+
+columns: [
+{
+field: "title",
+title: "Название",
+template: "<a href='#: data.link #' ng-click='vm.openDialog($event,\"#: data.link #\")'>#:data.title#</a>"
+},
+
+
+ну и стандартно при клике  
+$event.stopPropagation();
+$event.preventDefault();
