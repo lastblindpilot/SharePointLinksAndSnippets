@@ -12,3 +12,10 @@
 - [Github Patterns and Practices](https://github.com/lastblindpilot/PnP/tree/master/Samples/Branding.ClientSideRendering)
 - [Open Pages and Forms in Modal Dialog For SharePoint 2013](https://alinimer.wordpress.com/2013/02/25/open-pages-and-forms-in-modal-dialog-for-sharepoint-2013/)
 - [Введение в CSR](http://omlin.blogspot.ru/2014/03/csr.html)
+
+### Farm configuration
+- [Add web or application servers to farms in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc261752.aspx)
+
+### Cross Domain Calls in SP13
+- [Cross Domain Communication in SharePoint 2013 Apps](http://www.instantquick.com/index.php/cross-domain-communication-in-sharepoint-2013-apps?c=elumenotion-blog-archive/sharepoint-2013-and-office-365-apps)
+- [Query a remote service using the web proxy in SharePoint 2013](https://msdn.microsoft.com/en-us/library/fp179895.aspx)
