@@ -3,8 +3,8 @@
 ### Administration
 
 **Using Powershell**
-- [test](PowerShell/Add_term_to_termset.ps1)
-- [test2](#)
+- [Add new term](PowerShell/Add_term_to_termset.ps1)
+- [Delete all items from a list](PowerShell/delete_all_items_from_list.ps1)
 
 **Farm configuration**
 - [Add web or application servers to farms in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc261752.aspx)
